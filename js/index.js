@@ -22,7 +22,7 @@ function luasTriangle() {
     } else {
         let l = a * t / 2;
 
-        result1.innerHTML = `L = 1/2 x a x t<br>L = 1/2 x ${a} x ${t}<br>L = ${l} cm2`
+        result1.innerHTML = `L = 1/2 x a x t<br>L = 1/2 x ${a} x ${t}<br>L = ${l} cm<sup>2</sup>`
     }
 }
 
@@ -70,7 +70,7 @@ function luasParallelogram() {
     } else {
         let l = a * t;
 
-        result3.innerHTML = `L = a x t<br>L = ${a} x ${t}<br>L = ${l} cm2`
+        result3.innerHTML = `L = a x t<br>L = ${a} x ${t}<br>L = ${l} cm<sup>2</sup>`
     }
 }
 
